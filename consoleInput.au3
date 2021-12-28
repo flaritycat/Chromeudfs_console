@@ -5,7 +5,7 @@
 #include <AutoItConstants.au3>
 
 
-MsgBox(0, "Title Of Box", "A message for telling the user about input of mouse/keyboard.") ;Melding til brukeren om hva som skjer framover.
+MsgBox(0, "Title Of Box", "A message for telling the user about input of mouse/keyboard.") ;Message to the user.
 
 BlockInput($BI_DISABLE) ; Blocks any input from keyboard/mouse.
 _ChromeShutdown() ; Shutdown Chrome.exe
